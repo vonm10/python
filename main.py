@@ -2,7 +2,7 @@ with open('txt.txt') as myFile:
     contents = myFile.read()
 
 with open('txt.txt',mode='a') as myFile:
-    myFile.write('\nkkkk')
+    myFile.write('\nabcd')
 
 myList = [1,2,3]
 for item in myList:
